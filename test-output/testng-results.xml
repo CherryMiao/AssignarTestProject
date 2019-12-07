@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-07T11:49:19Z" name="Default suite" finished-at="2019-12-07T11:49:22Z" duration-ms="3378">
+    <groups>
+    </groups>
+    <test started-at="2019-12-07T11:49:19Z" name="Default test" finished-at="2019-12-07T11:49:22Z" duration-ms="3378">
+      <class name="selenium.testdemo.AllocationsAPITest">
+        <test-method signature="login()[pri:1, instance:selenium.testdemo.AllocationsAPITest@58a9760d]" started-at="2019-12-07T11:49:19Z" name="login" finished-at="2019-12-07T11:49:21Z" duration-ms="2032" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="confirmTask()[pri:2, instance:selenium.testdemo.AllocationsAPITest@58a9760d]" started-at="2019-12-07T11:49:21Z" name="confirmTask" finished-at="2019-12-07T11:49:22Z" duration-ms="1319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmTask -->
+      </class> <!-- selenium.testdemo.AllocationsAPITest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
