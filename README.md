@@ -64,7 +64,7 @@ This project uses **Eclipse+Maven+TestNG+Selenium** automation framework to do t
 
 Right click this java file: Run As -> 1 TestNG Test.
 
->src/main/java/selenium.testdemo/AllocationsUITest.java
+>src/test/java/selenium.testdemo/AllocationsUITest.java
 
 	Excpected result:
 	Firefox pops up and every step in the simple test case is done.
@@ -95,7 +95,7 @@ Right click this java file: Run As -> 1 TestNG Test.
 >The API is called successfully, its response is 201.
 
 Right click this java file: Run As -> 1 TestNG Test
->src/main/java/selenium.testdemo/AllocationsAPITest.java
+>src/test/java/selenium.testdemo/AllocationsAPITest.java
 
 	Excpected result:
 	Result displayed in the Eclipse console:
@@ -117,7 +117,7 @@ The test parameters has been hardcoded in this java file:
 
 ### How to change the browser type
 Actually this project can also run on Chrome and IE, you could change the browser type in this java file. While you must install or update your browsers to the latest versions.
-> src/main/java/com.util/BaseTest.java
+> src/test/java/com.util/BaseTest.java
 
 ```java
     @BeforeTest
