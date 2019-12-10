@@ -134,27 +134,32 @@ Actually this project can also run on Chrome and IE, you could change the browse
 ## Technology and approach used on the project
 
  - Automation framework **Eclipse+Maven+TestNG+Selenium** 
- This framework is popular, powerful and easy to use.
+ 
+ > This framework is popular, powerful and easy to use.
  - Java
  - XPath
- It is used to locate the page elements.
+ 
+ > It is used to locate the page elements.
 - HTTP Post request
 - JSON
 - Network traffic analysis
 - Management of test cases
-It is important to manage test cases well at first. In this project, test scripts are put into these 4 packages:
-com.util -> common utility functions
-com.pageObject -> elements and action functions of every single page
-com.testdata -> data separation principle
-selenium.testdemo -> test cases
+
+  > It is important to manage test cases well at first. In this project, test scripts are put into these 4 packages:
+  > com.util -> common utility functions
+  > com.pageObject -> elements and action functions of every single page
+  > com.testdata -> data separation principle
+  > selenium.testdemo -> test cases
 
 ## Challenges
 
- - **In the UI test case, it is difficult to simulate a user find the task exactly.**
-As elements on Allocation calendar page don't have unique attributes like id, name or other distinguishable attributes, it's difficult to locate them.  I use the workaround to go to the calendar page directly by URL.
+ - **In the UI test case, it is difficult to simulate a user finding the task exactly.**
+
+  > As elements on Allocation calendar page don't have unique attributes like id, name or other distinguishable attributes, it's difficult to locate them.  I use the workaround to go to the calendar page directly by URL.
 
 - **A lot of effort was spent on locating page elements.**
-Things will get harder when there are so many page elements without any unique identifiers. This is a common challenge to UI automation testing. To improve the test productivity, the team must have the consensus that page elements should be designed with unique identifiers in the early stage.
+
+  > Things will get harder when there are so many page elements without any unique identifiers. This is a common challenge to UI automation testing. To improve the test productivity, the team must have the consensus that page elements should be designed with unique identifiers in the early stage.
 
 
 ## Future Improvements
