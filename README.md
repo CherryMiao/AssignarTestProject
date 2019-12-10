@@ -136,13 +136,19 @@ Actually this project can also run on Chrome and IE, you could change the browse
  - Automation framework **Eclipse+Maven+TestNG+Selenium** 
  
  > This framework is popular, powerful and easy to use.
+ 
  - Java
+
  - XPath
  
  > It is used to locate the page elements.
+ 
 - HTTP Post request
+
 - JSON
+
 - Network traffic analysis
+
 - Management of test cases
 
   > It is important to manage test cases well at first. In this project, test scripts are put into these 4 packages:
